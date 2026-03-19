@@ -26,6 +26,13 @@ import {
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 
+// --- Images ---
+import macaImg from './assets/maca.png';
+import relogioImg from './assets/relogio.png';
+import aveImg from './assets/ave.png';
+import florestaImg from './assets/floresta.png';
+import rosaImg from './assets/rosa.png';
+
 // --- Types ---
 
 interface UserProgress {
@@ -171,7 +178,7 @@ const QUIZ_3: QuizQuestion[] = [
   {
     id: 1,
     question: "Analise a imagem abaixo. Qual o sentido DENOTATIVO predominante?",
-    image: "/maca.png",
+    image: macaImg,
     description: "Uma maçã vermelha sobre uma mesa de madeira.",
     options: [
       "Tentação e pecado original",
@@ -185,7 +192,7 @@ const QUIZ_3: QuizQuestion[] = [
   {
     id: 2,
     question: "Nesta imagem de um relógio derretendo, qual o sentido CONOTATIVO mais provável?",
-    image: "/relogio.png",
+    image: relogioImg,
     description: "Um relógio de bolso que parece estar derretendo sobre uma superfície.",
     options: [
       "O relógio está com defeito técnico",
@@ -199,7 +206,7 @@ const QUIZ_3: QuizQuestion[] = [
   {
     id: 3,
     question: "Ao ver esta imagem de uma pomba branca, qual interpretação é CONOTATIVA?",
-    image: "/ave.png",
+    image: aveImg,
     description: "Uma ave branca voando contra um céu azul limpo.",
     options: [
       "Uma ave da família Columbidae",
@@ -213,7 +220,7 @@ const QUIZ_3: QuizQuestion[] = [
   {
     id: 4,
     question: "Qual descrição representa a DENOTAÇÃO desta imagem?",
-    image: "/floresta.png",
+    image: florestaImg,
     description: "Uma floresta densa com raios de sol atravessando as árvores.",
     options: [
       "O mistério do desconhecido",
@@ -227,7 +234,7 @@ const QUIZ_3: QuizQuestion[] = [
   {
     id: 5,
     question: "Em uma propaganda de perfume, uma rosa vermelha é usada. Qual o sentido CONOTATIVO pretendido?",
-    image: "/rosa.png",
+    image: rosaImg,
     description: "Uma rosa vermelha com gotas de orvalho nas pétalas.",
     options: [
       "Uma flor do gênero Rosa",
