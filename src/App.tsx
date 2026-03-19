@@ -171,7 +171,7 @@ const QUIZ_3: QuizQuestion[] = [
   {
     id: 1,
     question: "Analise a imagem abaixo. Qual o sentido DENOTATIVO predominante?",
-    image: "https://picsum.photos/seed/apple/600/400",
+    image: "maca.png",
     description: "Uma maçã vermelha sobre uma mesa de madeira.",
     options: [
       "Tentação e pecado original",
@@ -185,7 +185,7 @@ const QUIZ_3: QuizQuestion[] = [
   {
     id: 2,
     question: "Nesta imagem de um relógio derretendo, qual o sentido CONOTATIVO mais provável?",
-    image: "https://picsum.photos/seed/clock/600/400?blur=2",
+    image: "relogio.png",
     description: "Um relógio de bolso que parece estar derretendo sobre uma superfície.",
     options: [
       "O relógio está com defeito técnico",
@@ -199,7 +199,7 @@ const QUIZ_3: QuizQuestion[] = [
   {
     id: 3,
     question: "Ao ver esta imagem de uma pomba branca, qual interpretação é CONOTATIVA?",
-    image: "https://picsum.photos/seed/dove/600/400",
+    image: "ave.png",
     description: "Uma ave branca voando contra um céu azul limpo.",
     options: [
       "Uma ave da família Columbidae",
@@ -213,7 +213,7 @@ const QUIZ_3: QuizQuestion[] = [
   {
     id: 4,
     question: "Qual descrição representa a DENOTAÇÃO desta imagem?",
-    image: "https://picsum.photos/seed/forest/600/400",
+    image: "floresta.png",
     description: "Uma floresta densa com raios de sol atravessando as árvores.",
     options: [
       "O mistério do desconhecido",
@@ -227,7 +227,7 @@ const QUIZ_3: QuizQuestion[] = [
   {
     id: 5,
     question: "Em uma propaganda de perfume, uma rosa vermelha é usada. Qual o sentido CONOTATIVO pretendido?",
-    image: "https://picsum.photos/seed/rose/600/400",
+    image: "rosa.png",
     description: "Uma rosa vermelha com gotas de orvalho nas pétalas.",
     options: [
       "Uma flor do gênero Rosa",
@@ -332,25 +332,25 @@ const GuideView = ({ progress, completeModule, canAccessAdvanced, setActiveTab }
     { 
       id: 'm1', 
       title: 'Introdução ao Reconhecimento de Imagens', 
-      author: 'Fundamentos Visuais',
+      author: 'Aumont (2002)',
       content: 'O reconhecimento de imagens começa com a percepção biológica, mas evolui para uma interpretação cultural. É o processo de identificar formas, cores e texturas e atribuir-lhes significados. Na Ciência da Informação, entender como as imagens são lidas é crucial para sua organização e recuperação. A transição do olhar denotativo (literal) para o conotativo (simbólico) é o primeiro passo para a análise profunda.' 
     },
     { 
       id: 'm2', 
       title: 'O Método de Erwin Panofsky', 
-      author: 'Panofsky (2004)',
+      author: 'Joly (1996)',
       content: 'Erwin Panofsky propôs três níveis de análise: 1. Pré-iconográfico (descrição natural de formas e objetos); 2. Iconográfico (identificação de temas e narrativas específicas); 3. Iconológico (interpretação do significado intrínseco que reflete a mentalidade de uma época). Este método permite que o pesquisador vá além da superfície da imagem, alcançando suas raízes culturais e históricas.' 
     },
     { 
       id: 'm3', 
       title: 'Semiótica e a Natureza do Signo', 
-      author: 'Santaella (2012) / Pierce',
+      author: 'Dondis (2003)',
       content: 'Charles Pierce classificou os signos em três categorias principais: Ícones (semelhança), Índices (causalidade) e Símbolos (convenção). Lucia Santaella destaca como essa tríade é essencial para interpretar imagens no mundo contemporâneo. Entender se uma imagem funciona como um vestígio físico (índice) ou como uma representação cultural (símbolo) altera completamente a forma como ela deve ser indexada e recuperada.' 
     },
     { 
       id: 'm4', 
       title: 'Retórica da Imagem e Conotação', 
-      author: 'Barthes (1984)',
+      author: 'Manguel (2001)',
       content: 'Roland Barthes explorou como as imagens "falam" através da conotação. Para Barthes, a denotação é o que a imagem mostra, enquanto a conotação é o que ela evoca. Em sua análise da publicidade, ele demonstrou que cada elemento visual é escolhido para transmitir uma mensagem ideológica ou emocional específica, criando uma "retórica" que guia a interpretação do observador.' 
     },
     { 
@@ -453,11 +453,11 @@ const GuideView = ({ progress, completeModule, canAccessAdvanced, setActiveTab }
             ))
           ) : (
             <>
-          <p>PANOFSKY, Erwin. <b>Significado nas artes visuais</b>. São Paulo: Perspectiva, 2004.</p>
-          <p>BARTHES, Roland. <b>A câmara clara</b>: nota sobre a fotografia. Rio de Janeiro: Nova Fronteira, 1984.</p>
-          <p>SANTAELLA, Lucia. <b>Como interpretar imagens</b>. São Paulo: Paulus, 2012.</p>
-          <p>JOLY, Martine. <b>Introdução à análise da imagem</b>. Campinas: Papirus, 1996.</p>
-          <p>SMIT, Johanna. <b>A representação da imagem</b>. São Paulo: Briquet de Lemos, 1996.</p>
+          <p>AUMONT, Jacques. <b>A imagem</b>. 7. ed. Campinas, SP: Papirus, 2002.</p>
+          <p>DONDIS, Donis A. <b>Sintaxe da linguagem visual</b>. São Paulo: Martins Fontes, 2003.</p>
+          <p>JOLY, Martine. <b>Introdução à análise da imagem</b>. Campinas, SP: Papirus, 1996.</p>
+          <p>MANGUEL, Alberto. <b>Lendo imagens</b>: uma história de amor e ódio. São Paulo: Companhia das Letras, 2001.</p>
+          <p>SMIT, Johanna W. A representação da imagem. <b>Informare</b>, Rio de Janeiro, v. 2, n. 2, p. 28-36, jul./dez. 1996.</p>
             </>
           )}
         </div>
